@@ -50,10 +50,3 @@ def saveQueriesToXml(listQueries, fileName):
 	text_file = open(fileName, "w")
 	text_file.write(strXml)
 	text_file.close()
-
-query1 = labo_classes.Query('5004', '7 day weather welwyn garden city', 'YES', '7 day weather', 'Information', '', 'welwyn garden city', '51.80, -0.20')
-query2 = labo_classes.Query('5017', '7 juniper path lanssale pa 19446', 'YES', '', 'Map', '', '7 juniper path lanssale pa 19446', '40.23, -75.30')
-
-listQueries = [query1, query2]
-fileName = os.path.dirname(os.path.realpath(__file__)) + '/test.xml'
-saveQueriesToXml(listQueries, fileName)
