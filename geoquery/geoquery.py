@@ -1,10 +1,10 @@
 import sys
 sys.path.insert(0,'../lib/')
-import xmlToDict_functions as x2d
+import xmlToDict_functions as xml2dict
 import dbPediaInterface as dbpi
 
 query_filepath = "../GC_Tr_100.xml"
-training_dict = x2d.xmlToDict(query_filepath)
+training_dict = xml2dict.xmlToDict(query_filepath)
 
 query_list = []
 # Storing the queries in a list.
@@ -17,3 +17,4 @@ for k,v in training_dict.iteritems():
 for q in query_list:
     print dbpi.isLocation(q)
 
+# Output XML file
