@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655082d2-c855-4e2e-b338-0d67caaa24ca" name="Default" comment="" />
+    <list default="true" id="655082d2-c855-4e2e-b338-0d67caaa24ca" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/INLPlaboProject2015_2016.doc" afterPath="$PROJECT_DIR$/docs/INLPlaboProject2015_2016.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LI_OverviewCLEF2007.pdf" afterPath="$PROJECT_DIR$/docs/LI_OverviewCLEF2007.pdf" />
+    </list>
     <ignored path="geoquery.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
