@@ -15,6 +15,10 @@ for k,v in training_dict.iteritems():
     print v['QUERY']
     query_list.append(v['QUERY'])
 
+# Data pre-processing
+query_list = [query.lower() for query in query_list]
+
+
 # Testing DBPedia accessor
 islocal = []
 for q in query_list:
