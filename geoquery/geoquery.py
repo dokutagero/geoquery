@@ -5,6 +5,16 @@ import dbPediaInterface as dbpi
 import labo_classes
 from labo_functions import saveQueriesToXml
 
+
+# Geo-relations
+geo_relations = ["in", "on", "of","near", "next to", around", "along",
+                 "at", "from", "to", "within", "north of", "south of",
+                 "east of", "west of", "northeast of", "northwest of",
+                 "southeast of", "southwest of", "north to", "east to",
+                 "west to", "northeast to", "northwest to",
+                 "southeast to"]
+
+
 query_filepath = "../GC_Tr_100.xml"
 training_dict = xml2dict.xmlToDict(query_filepath)
 
