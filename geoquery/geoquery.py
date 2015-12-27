@@ -32,5 +32,5 @@ for q in query_list:
     out_geotags.append(element)
     i+=1
 
-saveQueriesToXml(out_geotags, 'miau.xml')
+saveQueriesToXml(out_geotags, '../test/miau.xml')
 
