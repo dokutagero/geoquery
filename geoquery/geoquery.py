@@ -7,7 +7,7 @@ from labo_functions import saveQueriesToXml
 
 
 # Geo-relations
-geo_relations = ["in", "on", "of","near", "next to", around", "along",
+geo_relations = ["in", "on", "of","near", "next to", "around", "along",
                  "at", "from", "to", "within", "north of", "south of",
                  "east of", "west of", "northeast of", "northwest of",
                  "southeast of", "southwest of", "north to", "east to",
