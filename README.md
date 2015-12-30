@@ -21,3 +21,6 @@ https://www.jetbrains.com/pycharm/
 I would suggest to use a IDE for developing this particular project in Python.
 There is a free version which is very complete. We have autocomplete and many
 other features that could come in hand.
+
+* NLP Docs
+http://www.cs.bgu.ac.il/~elhadad/nlp15.html
