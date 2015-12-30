@@ -1,0 +1,25 @@
+(S plumbers/NNS in/IN manhattan/JJ ny/JJ new/JJ york/NN)
+(S
+  vice/NN
+  president/NN
+  (PP of/IN trust/NN)
+  at/IN
+  frontier/JJR
+  bank/NN
+  in/IN
+  everett/JJ
+  washington/NN)
+(S niagara/DT day/NN tours/VBZ (PP from/IN toronto/NN))
+(S how/WRB to/TO invest/VB (PP in/IN stock/NN))
+(S cannon/NN mountain/NN)
+(S pine/NN view/NN high/JJ school/NN)
+(S law/NN blog/NN (PP in/IN singapore/NN))
+(S shores/NNS (PP of/IN panama/NN))
+(S men/NNS shoes/NNS)
+
+
+(PP of/IN trust/NN)
+(PP from/IN toronto/NN)
+(PP in/IN stock/NN)
+(PP in/IN singapore/NN)
+(PP of/IN panama/NN)
